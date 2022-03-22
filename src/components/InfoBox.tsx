@@ -1,5 +1,3 @@
-import { ReactComponent as SVG } from '../assests/css.svg'
-
 interface InfoBoxProps {
   img: string
 }
