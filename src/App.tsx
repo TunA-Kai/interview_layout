@@ -1,6 +1,9 @@
 import { ReactComponent as Logo } from './assests/logo.svg'
 import InfoBox from './components/InfoBox'
 import Sidebar from './components/Sidebar'
+import htmlImg from './assests/html.png'
+import cssImg from './assests/css.png'
+import urlImg from './assests/url.png'
 
 function App() {
   return (
@@ -21,9 +24,9 @@ function App() {
         </div>
 
         <div className='mx-8 mb-5 grid grid-cols-1 gap-6 lg:grid-cols-3'>
-          <InfoBox />
-          <InfoBox />
-          <InfoBox />
+          <InfoBox img={cssImg} />
+          <InfoBox img={htmlImg} />
+          <InfoBox img={urlImg} />
         </div>
 
         <footer className='mt-auto border-t border-[#dedede] py-8 pl-8'>
